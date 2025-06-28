@@ -60,6 +60,7 @@
             this.txtNumero.Name = "txtNumero";
             this.txtNumero.Size = new System.Drawing.Size(286, 35);
             this.txtNumero.TabIndex = 2;
+            this.txtNumero.TextChanged += new System.EventHandler(this.txtNumero_TextChanged);
             // 
             // lstTabla
             // 

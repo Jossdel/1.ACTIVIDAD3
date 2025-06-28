@@ -21,7 +21,7 @@ namespace WindowsFormsApp1
         {
 
         }
-
+        //1
         private void btnMostrar_Click(object sender, EventArgs e)
         {
             lstTabla.Items.Clear(); // Limpiar la lista antes de mostrar nueva tabla
@@ -40,5 +40,9 @@ namespace WindowsFormsApp1
             }
         }
 
+        private void txtNumero_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
