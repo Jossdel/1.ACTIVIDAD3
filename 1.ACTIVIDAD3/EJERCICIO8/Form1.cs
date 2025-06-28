@@ -17,6 +17,7 @@ namespace EJERCICIO8
             InitializeComponent();
         }
 
+        //
         private void btnContar_Click(object sender, EventArgs e)
         {
             string oracion = txtOracion.Text.Trim();
@@ -32,6 +33,11 @@ namespace EJERCICIO8
             int cantidad = palabras.Length;
 
             lblResultado.Text = "Cantidad de palabras: " + cantidad;
+        }
+
+        private void txtOracion_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

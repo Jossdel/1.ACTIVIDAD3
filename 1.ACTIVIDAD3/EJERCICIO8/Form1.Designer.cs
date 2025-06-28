@@ -50,6 +50,7 @@
             this.txtOracion.Name = "txtOracion";
             this.txtOracion.Size = new System.Drawing.Size(386, 66);
             this.txtOracion.TabIndex = 1;
+            this.txtOracion.TextChanged += new System.EventHandler(this.txtOracion_TextChanged);
             // 
             // btnContar
             // 
