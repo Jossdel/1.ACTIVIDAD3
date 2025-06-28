@@ -17,7 +17,7 @@ namespace EJERCICIO8
             InitializeComponent();
         }
 
-        //
+        //8
         private void btnContar_Click(object sender, EventArgs e)
         {
             string oracion = txtOracion.Text.Trim();
